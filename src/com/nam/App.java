@@ -1,8 +1,21 @@
 package com.nam;
 
 public class App {
-    public void run(){
 
-        System.out.print("App::run()");
+    private int mFlag;
+
+    private void init(){
+        System.out.println("App::int()");
+
+        mFlag = 42;
+    }
+
+    public void run(){
+        System.out.println("App::run()");
+
+        init();
+
+        System.out.println("App::mFlag = " + mFlag);
+
     }
 }
