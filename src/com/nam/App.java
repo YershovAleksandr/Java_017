@@ -7,7 +7,7 @@ public class App {
     private void init(){
         System.out.println("App::int()");
 
-        mFlag = 42;
+        mFlag = 422;
     }
 
     public void run(){
