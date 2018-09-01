@@ -5,7 +5,7 @@ public class App {
     private int mFlag;
 
     private void init(){
-        System.out.println("App::int()");
+        System.out.println("App::init()");
 
         mFlag = 24;
     }
