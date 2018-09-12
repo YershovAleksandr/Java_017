@@ -1,8 +1,10 @@
 package com.nam;
 
-public class Main {
+import java.io.IOException;
 
-    public static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) throws IOException
+    {
 	// write your code here
         App app = new App();
 
