@@ -11,7 +11,7 @@ public class App {
     private void init() throws IOException {
         System.out.println("App::init()");
 
-        mFlag = 24;
+      /*  mFlag = 24;
 
         Number nb;
 
@@ -33,7 +33,7 @@ public class App {
         System.out.println();
         System.out.println(d1 + ": " + d1.isInfinite() + ", " + d1.isNaN());
         System.out.println(d2 + ": " + d2.isInfinite() + ", " + d2.isNaN());
-
+*/
 /*        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String str;
