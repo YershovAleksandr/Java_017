@@ -1,4 +1,4 @@
-package com.nam.proxy;
+package com.nam.proxy_pattern;
 
 public class ProxyPatternDemo {
     public static void main(String... str){
