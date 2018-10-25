@@ -1,0 +1,6 @@
+package com.nam.service_locator_pattern;
+
+public interface Service {
+    public String getName();
+    public void execute();
+}
