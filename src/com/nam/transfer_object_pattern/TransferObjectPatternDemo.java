@@ -12,7 +12,6 @@ public class TransferObjectPatternDemo {
         //Update student
         StudentVO student = studentBusinessObject.getAllStudents().get(0);
         student.setName("Michael");
-
         studentBusinessObject.updateStudent(student);
 
         //Get the student
